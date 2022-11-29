@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "prettier-plugin-tailwindcss": "^0.1.13",
+    "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
+}
