@@ -1,6 +1,6 @@
 'use script';
 
-var countDownDate = new Date('Dec 4, 2022 00:00:00').getTime();
+var countDownDate = new Date('Dec 25, 2022 00:00:00').getTime();
 var x = setInterval(function () {
   var now = new Date().getTime();
   var distance = countDownDate - now;
@@ -12,6 +12,6 @@ var x = setInterval(function () {
     days + 'd ' + hours + 'h ' + minutes + 'm ' + seconds + 's ';
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById('countdown').innerHTML = 'EXPIRED';
+    document.getElementById('countdown').innerHTML = '666';
   }
 });
